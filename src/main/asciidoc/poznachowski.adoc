@@ -1,0 +1,287 @@
+= Curriculum vitae
+:hide-uri-scheme:
+
+== Personal details
+
+[cols="20,40,>.^~", grid="none", frame="none"]
+|===
+|Name:
+s|Grzegorz Poznachowski
+.7+a|image::me.jpg[align='right', pdfwidth="80"]
+
+|Address:
+|Address Line 1 +
+Address Line 2
+
+|Date of birth:
+|Date of birth
+
+|Telephone:
+|Phone number
+
+|Email:
+|grzegorz@poznachowski.pl
+
+|Technical blog:
+|https://blog.poznachowski.pl
+
+|GitHub:
+|https://github.com/poznachowski
+|===
+
+
+== Professional summary
+
+I’m a result-driven, experienced Java developer, with high analytical skills, able to reconcile software craftsmanship with providing value to the customer.
+I strive for SOLID, well-tested, maintainable code.
+I’m highly motivated to learn and develop myself and not afraid to leave my comfort zone.
+I’m capable of working individually as well as in teams, competent to work in a multicultural, distributed environment.
+Always eager to help and mentor less experienced colleagues.
+I try to give back to the community by writing technical blog posts and contributing to open source projects.
+
+== Work experience
+
+[cols=">14,2,70,>.^~", grid="none", frame="none"]
+|===
+
+|12.2020 - now
+|
+s|“Twill by Maersk”, Lead Software Engineer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Creating maritime transportation platform for small and medium enterprises.
+Core member of “post booking” team, responsible for handling customer tasks required after the booking was placed.
+- Mentoring less experienced colleagues, conducting tech and team-fit interviews.
+- Introduced and applied concept of custom Spring Boot starters to the company.
+This allowed extracting common patterns, configurations and practices to a dedicated libraries.
+- Led Spring Boot 3.x migration.
+- _JDK 17, Spring Boot, Spring Data, Spring Security, Spring Cloud, MongoDB, GCP Pub/Sub, Docker, Kubernetes, ~30 microservices_
+
+
+|02.2020 – 12.2020
+|
+s|“Jit Team” at “LPP SA”, Technical Lead
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Member of an integration team - connecting various systems to provide complex solutions for company key areas: logistics, supply chain and merchandise management.
+- Mentoring a team of 4 developers: ensuring high code quality and propagating best coding practices.
+- _JDK 14, Spring Boot, Spring Data, Mule ESB, Oracle, Docker_
+
+|05.2018 – 02.2020
+|
+s|“Yameo”, Senior Software Developer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Design and implementation of B2C real-time video solutions - used with success in various types of companies: insurance, bank, kitchenware.
+- In charge of keeping high quality of the solution: covering critical paths with integration tests, continuous refactoring and introducing ADR (Architecture Decision Records) to keep the system maintainable.
+
+- _JDK 11, Spring Boot, Spring Data, Spring Cloud, STOMP over WebSockets, PostgreSQL, jOOQ, Angular 7_
+
+|01.2018 – 03.2018
+|
+s|System implementation for “Rehmedis – Paweł Bednarski”
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Designed and implemented of an appointment reminder system, which integrates Google Calendar with external SMS Text service provider.
+
+- _Kotlin, AWS Stack: Lambda, Simple Email Service, SQS_
+
+|11.2014 – 05.2018
+|
+s|“Neoteric”, Lead Software Developer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Migrated from an old, mixed stack (Jetty, Jersey, Guice) to a Spring-based: Spring Boot, Spring Framework, Spring Data (MongoDB), Spring AMQP (RabbitMQ), Spring Cloud, Spring Security, Java 8, ELK centralized logging.
+- Authored a set of Spring Boot starters (https://github.com/neoteric-eu/neo-starters) which encapsulate team best practices and common solutions.
+- Mentored a team of 3-5 developers.
+- Developed several components, such as: digital document manager and task manager.
+- Introduced versioning and fully-fledged CI / CD solution for backend services (Maven, Jenkins, Git Flow, Nexus, SonarQube, Docker).
+
+|===
+
+[cols=">14,2,70,>.^~", grid="none", frame="none"]
+|===
+|08.2016 – 01.2018
+|
+s|“Neoteric” at “Jeppesen Poland”, Lead Software Developer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Designed scalable system for a flight disruption management. Using microservice architecture with asynchronous communication for backend services talking with AngularJS frontend application (RabbitMQ, MongoDB, STOMP over WebSockets). Backend services are based on Spring ecosystem: Spring Boot, Spring Framework, Spring Cloud, Spring Integration.
+- Mentored a team of 5-7 developers.
+- Prepared code infrastructure for the system components.
+- Introduced versioning and CI solution using Jenkinsfile (Maven, Jenkins, Artifactory, SonarQube, BitBucket, Slack).
+- Introduced versioning and CI solution for R&D team (Gradle, Jenkins, Archiva).
+- Designed and implemented refactoring process to encapsulate third party service (data provider) usage among several services for a potential technology switch (JEE 7, Wildfly 10).
+
+|09.2008 – 10.2014
+|
+s|“Acxiom GSC”,  Senior Solutions Developer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Delivered web services (SOAP, RESTful) to an automotive industry client (JEE, JBoss, Hibernate). Aim of the project was to gradually switch from data warehouse batch processing to real-time systems.
+- Converted monolithic entity into a modularized, versioned, maintainable system.
+- Helped the team in delivering fast-feedback, high-quality code (Jenkins, Nexus, SonarQube), with extensive unit and integration test coverage (TestNG, Mockito, OpenEJB).
+- Introduced Mule ESB for systems integration. By combining existing services (SOAP, RESTful) along with data warehouse and Websphere MQ, provided more complex solutions to the client.
+
+- Designed and implemented an internal web application (JSF + IceFaces), which was used for gathering information about tools used inside other company’s teams / accounts.
+
+- Created GUI (Swing + JDBC) for existing data generator C script. Used internally by other accounts, when vast volume of test datasets is needed.
+
+|04.2008 – 06.2008
+|
+s|“YourVision”,  Java Developer
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Developed web-based customer relationship management system using JEE technologies such as: EJB 3, JPA and JSF.
+
+|08.2007 – 08.2008
+|
+s|“Zensar Technologies Ltd”,  Software Consultant
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Designed and developed several web applications using J2EE technologies.
+
+|04.2007 – 08.2007
+|
+s|“Zensar Technologies Ltd”,  Internship
+|Pune, India
+
+|
+|
+2+a|
+- Participated in training on J2SE, J2EE technologies, UML, XML and Project Management. Carried out a work management system using J2EE, Spring Framework (MVC) and Hibernate.
+
+|===
+
+== Education
+
+[cols=">14,2,70,>.^~", grid="none", frame="none"]
+|===
+
+|2003 - 2008
+|
+s|University of Gdańsk, Department of Management,
+Faculty of Computing
+
+|Sopot, Poland
+
+|
+|
+2+a|
+- Master thesis: “Information System Design for master thesis repository based on DocBook Technology", grade: 5 (highest grade)
+- Internship at Institute of Meteorology and Water Management: Designed and built a database of  IMGW publications using MS Access with VBA support.
+
+|1999 – 2003
+|
+s|3rd High School in Gdańsk
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Mathematics, Physics and Computer Science class
+
+|===
+
+== Certificates
+
+- Oracle Certified Professional, Java EE 5 Business Component Developer (2012)
+- Sun Certified Programmer for the Java 2 Platform, Standard Edition 6.0 (2011)
+
+<<<
+
+== Programming skills
+
+[cols=">20h,2,~", grid="none", frame="none"]
+|===
+
+|General:
+|
+|OOP, design patterns, microservices architecture
+
+|Languages:
+|
+|Java, Kotlin, SQL
+
+|Databases:
+|
+|MongoDB, PostgreSQL, Oracle
+
+|Message brokers:
+|
+|GCP Pub/Sub, RabbitMQ, ActiveMQ
+
+|Spring ecosystem:
+|
+|Spring Framework, Spring Boot, Spring Data, Spring Security, Spring Integration, Spring AMQP, Spring Session, Spring Modulith
+
+|Spring Cloud ecosystem:
+|
+|Spring Cloud Stream, Spring Cloud OpenFeign, Spring Cloud Function, Spring Cloud Sleuth, Spring Cloud Config
+
+|Testing:
+|
+|Junit 5, TestNG, Mockito, AssertJ, Spring Test Framework, WireMock, Testcontainers, Awaitility
+
+|Java EE:
+|
+|EJB, JPA, JAX-WS, JAX-RS, JMS, Servlets
+
+|Application servers:
+|
+|Tomcat, Jetty, Wildfly, JBoss
+
+|Observability:
+|
+|Micrometer, Prometheus, Grafana, Loki, Zipkin, ELK stack
+
+|Other:
+|
+|Resilience4j, Caffeine, Shedlock,  MapStruct, Lombok, Guava, Hibernate, jOOQ, Mule ESB
+
+|Development tools:
+|
+|Maven, Gradle, IntelliJ IDEA, Git, GitHub, Gitlab, Jira, Confluence, Jenkins, Nexus, Sentry, SonarQube, Docker, Kubernetes, Asciidoc
+
+|Operating systems:
+|
+|Linux (Ubuntu, Fedora), Windows
+
+|===
+
+== Language knowledge
+
+- Polish – native
+- English – spoken and written - fluent
+
+== Additional information
+
+- Driving license (category B)
+- Personal interests: photography (https://ontherun.pl), traveling, squash, cycling, board games
