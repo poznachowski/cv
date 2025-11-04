@@ -1,50 +1,54 @@
-= Curriculum vitae
+= Grzegorz Poznachowski
 :hide-uri-scheme:
+:icons: font
 
-== Personal details
+'''
 
-[cols="20,40,>.^~", grid="none", frame="none"]
-|===
-|Name:
-s|Grzegorz Poznachowski
-.7+a|image::me.jpg[align='right', pdfwidth="80"]
+[.contact.text-center]
+icon:envelope[] grzegorz@poznachowski.pl | icon:phone[] +48 506 117 291| icon:map-pin[] Gdańsk, Poland +
+icon:github[] https://github.com/poznachowski | icon:globe[] https://blog.poznachowski.pl | icon:linkedin[] https://linkedin.com/in/poznachowski
 
-|Address:
-|Address Line 1 +
-Address Line 2
+{empty} +
 
-|Date of birth:
-|Date of birth
-
-|Telephone:
-|Phone number
-
-|Email:
-|grzegorz@poznachowski.pl
-
-|Technical blog:
-|https://blog.poznachowski.pl
-
-|GitHub:
-|https://github.com/poznachowski
-|===
-
-
-== Professional summary
+== ABOUT
 
 I’m a result-driven, experienced Java developer, with high analytical skills, able to reconcile software craftsmanship with providing value to the customer.
 I strive for SOLID, well-tested, maintainable code.
 I’m highly motivated to learn and develop myself and not afraid to leave my comfort zone.
 I’m capable of working individually as well as in teams, competent to work in a multicultural, distributed environment.
 Always eager to help and mentor less experienced colleagues.
-I try to give back to the community by writing technical blog posts and contributing to open source projects.
+I try to give back to the community by writing technical blog posts and contributing to open-source projects.
 
 == Work experience
 
-[cols=">14,2,70,>.^~", grid="none", frame="none"]
+[cols=">14,2,60,>.^~", grid="none", frame="none"]
 |===
 
-|12.2020 - now
+|07.2024 - now
+|
+s|"Two Hundred", Senior Software Consultant
+|Gdańsk, Poland
+
+|
+|
+2+a|
+- Leading the design and development of a data ingestion system in a construction machinery telemetry domain.
+- Engaged in diverse assignments across engineering teams, quickly adapting to different codebases and technical stacks to deliver high-impact solutions.
+- _Java 25, Spring ecosystem, Kafka, Hibernate, PostgreSQL, Docker, Kubernetes, Flink_
+
+|12.2023 - 07.2024
+|
+s|“DB Schenker”, Senior Software Engineer
+|(remote) Warsaw, Poland
+
+|
+|
+2+a|
+- Providing integration infrastructure for different company systems serving a smoother and more streamlined experience
+to the end users.
+- _Kotlin, Spring Boot, Kafka, PostgreSQL, Docker, Kubernetes, ~15 microservices_
+
+|12.2020 - 12.2023
 |
 s|“Twill by Maersk”, Lead Software Engineer
 |Gdańsk, Poland
@@ -52,11 +56,11 @@ s|“Twill by Maersk”, Lead Software Engineer
 |
 |
 2+a|
-- Creating maritime transportation platform for small and medium enterprises.
+- Creating a maritime transportation platform for small and medium enterprises.
 Core member of “post booking” team, responsible for handling customer tasks required after the booking was placed.
 - Mentoring less experienced colleagues, conducting tech and team-fit interviews.
-- Introduced and applied concept of custom Spring Boot starters to the company.
-This allowed extracting common patterns, configurations and practices to a dedicated libraries.
+- Introduced and applied the concept of custom Spring Boot starters to the company.
+This allowed extracting common patterns, configurations and practices to dedicated libraries.
 - Led Spring Boot 3.x migration.
 - _JDK 17, Spring Boot, Spring Data, Spring Security, Spring Cloud, MongoDB, GCP Pub/Sub, Docker, Kubernetes, ~30 microservices_
 
@@ -94,9 +98,15 @@ s|System implementation for “Rehmedis – Paweł Bednarski”
 |
 |
 2+a|
-- Designed and implemented of an appointment reminder system, which integrates Google Calendar with external SMS Text service provider.
+- Designed and implemented an appointment reminder system, which integrates Google Calendar with external SMS Text service provider.
 
 - _Kotlin, AWS Stack: Lambda, Simple Email Service, SQS_
+|===
+
+<<<
+
+[cols=">14,2,60,>.^~", grid="none", frame="none"]
+|===
 
 |11.2014 – 05.2018
 |
@@ -112,10 +122,6 @@ s|“Neoteric”, Lead Software Developer
 - Developed several components, such as: digital document manager and task manager.
 - Introduced versioning and fully-fledged CI / CD solution for backend services (Maven, Jenkins, Git Flow, Nexus, SonarQube, Docker).
 
-|===
-
-[cols=">14,2,70,>.^~", grid="none", frame="none"]
-|===
 |08.2016 – 01.2018
 |
 s|“Neoteric” at “Jeppesen Poland”, Lead Software Developer
@@ -124,7 +130,7 @@ s|“Neoteric” at “Jeppesen Poland”, Lead Software Developer
 |
 |
 2+a|
-- Designed scalable system for a flight disruption management. Using microservice architecture with asynchronous communication for backend services talking with AngularJS frontend application (RabbitMQ, MongoDB, STOMP over WebSockets). Backend services are based on Spring ecosystem: Spring Boot, Spring Framework, Spring Cloud, Spring Integration.
+- Designed a scalable system for flight disruption management. Using microservice architecture with asynchronous communication for backend services talking with AngularJS frontend application (RabbitMQ, MongoDB, STOMP over WebSockets). Backend services are based on Spring ecosystem: Spring Boot, Spring Framework, Spring Cloud, Spring Integration.
 - Mentored a team of 5-7 developers.
 - Prepared code infrastructure for the system components.
 - Introduced versioning and CI solution using Jenkinsfile (Maven, Jenkins, Artifactory, SonarQube, BitBucket, Slack).
@@ -146,7 +152,7 @@ s|“Acxiom GSC”,  Senior Solutions Developer
 
 - Designed and implemented an internal web application (JSF + IceFaces), which was used for gathering information about tools used inside other company’s teams / accounts.
 
-- Created GUI (Swing + JDBC) for existing data generator C script. Used internally by other accounts, when vast volume of test datasets is needed.
+- Created GUI (Swing + JDBC) for an existing data generator C script. Used internally by other accounts, when vast volume of test datasets is needed.
 
 |04.2008 – 06.2008
 |
@@ -156,7 +162,7 @@ s|“YourVision”,  Java Developer
 |
 |
 2+a|
-- Developed web-based customer relationship management system using JEE technologies such as: EJB 3, JPA and JSF.
+- Developed a web-based customer relationship management system using JEE technologies such as EJB 3, JPA and JSF.
 
 |08.2007 – 08.2008
 |
@@ -224,7 +230,7 @@ s|3rd High School in Gdańsk
 
 |General:
 |
-|OOP, design patterns, microservices architecture
+|OOP, design and integration patterns, microservices, distributed systems, modular monoliths
 
 |Languages:
 |
@@ -236,7 +242,7 @@ s|3rd High School in Gdańsk
 
 |Message brokers:
 |
-|GCP Pub/Sub, RabbitMQ, ActiveMQ
+|GCP Pub/Sub, Kafka, RabbitMQ, ActiveMQ
 
 |Spring ecosystem:
 |
@@ -244,7 +250,7 @@ s|3rd High School in Gdańsk
 
 |Spring Cloud ecosystem:
 |
-|Spring Cloud Stream, Spring Cloud OpenFeign, Spring Cloud Function, Spring Cloud Sleuth, Spring Cloud Config
+|Spring Cloud Stream, Spring Cloud OpenFeign, Spring Cloud Function, Spring Cloud Sleuth, Spring Cloud Config, Spring Cloud Kubernetes, Spring Cloud Contract
 
 |Testing:
 |
@@ -272,7 +278,7 @@ s|3rd High School in Gdańsk
 
 |Operating systems:
 |
-|Linux (Ubuntu, Fedora), Windows
+|Linux (Mint, Ubuntu, Fedora), Windows
 
 |===
 
@@ -284,4 +290,4 @@ s|3rd High School in Gdańsk
 == Additional information
 
 - Driving license (category B)
-- Personal interests: photography (https://ontherun.pl), traveling, squash, cycling, board games
+- Personal interests: photography (https://ontherun.pl), traveling, padel, squash, cycling, board games
